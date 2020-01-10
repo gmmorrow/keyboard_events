@@ -28,6 +28,6 @@
         }
          else if (event.key === "ArrowRight") {
             boxLeft += 10
-            boxElement.style.top = boxTop + "px"
+            boxElement.style.left = boxLeft + "px"
         }
     })
